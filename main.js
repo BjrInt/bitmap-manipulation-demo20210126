@@ -8,7 +8,7 @@ canvas.width = forestImg.width
 
 const context = canvas.getContext('2d')
 
-forestImg.onload(() => {
+forestImg.onload = () => {
   // Copy the forest image in the canvas to use it
   context.drawImage(forestImg, 0, 0)
 
@@ -31,5 +31,5 @@ forestImg.onload(() => {
       context.fillRect(i, j, 5, 5)
     }
   }
-})
+}
 
