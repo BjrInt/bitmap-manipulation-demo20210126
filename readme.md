@@ -1,6 +1,6 @@
 # Image manipulation example
 
-Short example of canvas bitmap manipulation made for Becode learners.
+Short 20 minutes demo of canvas bitmap manipulation made for Becode learners.
 
 <table>
   <tr>
